@@ -1,0 +1,19 @@
+div
+{
+    background-color: crimson;
+}
+
+img
+{
+    /* Padding: Es la distancia entre el contenido de un elemento html y su borde ; sup der inf izq*/
+    /* padding: 20px 15px 5px 10px;   */
+    padding: 25px;
+    background-color: yellow;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+
+    /* Margen: es la distancia entre el borde de un elemento y el borde de otros elementos, es decir separamos un borde de otro borde de elementos */
+    /* margin: 20px 15px 10px 5px; */
+    margin: 25px;
+}

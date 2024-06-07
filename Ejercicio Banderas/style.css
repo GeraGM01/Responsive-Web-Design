@@ -1,0 +1,110 @@
+.bandera
+{
+    background-color: #cccccc;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    border: black solid;
+}
+
+
+/* Para las franjas verticales, no las muestra ya que no hay algo dentro del div y no agarra altura;
+    Para esto le damos una altura nosotros, en este caso le daremos el 100% para dibujar la bandera    
+*/
+
+
+.verde-yuc
+{
+    background-color: #006847;
+    /* el 33% del total de la caja que lo contiene */
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.rojo-yuc-1
+{
+    background-color: #ce1127;
+    height: 33.33%;
+}
+
+.blanco-yuc
+{
+    background-color: #ffffff;
+    height: 33.33%;
+}
+
+.rojo-yuc-2
+{
+    background-color: #ce1127;
+    height: 33.33%;
+}
+
+.verde-yuc .estrella-superior img
+{
+    width: 33.33%;
+}
+
+.verde-yuc .estrella-inferior img
+{
+    width: 33.33%;
+}
+
+/* Bandera de SLP */
+.azul-slp
+{
+    background-color: #3e8ec3;
+    /* el 33% del total de la caja que lo contiene */
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.blanco-slp
+{
+    background-color: #ffffff;
+    /* el 33% del total de la caja que lo contiene */
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+/* Bandera de Aguascalientes */
+
+.azul-bajo-ags
+{
+    background-color: #006f94;
+    height: 50%;
+}
+
+.blanco-ags
+{
+    background-color: #ffffff;
+    /* el 33% del total de la caja que lo contiene */
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.dorado-ags
+{
+    background-color: #cb9a00;
+    /* el 33% del total de la caja que lo contiene */
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.verde-yuc img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.escudo-slp
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

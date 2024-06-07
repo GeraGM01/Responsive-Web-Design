@@ -1,0 +1,24 @@
+body
+{
+    background-color: gray;
+}
+
+div
+{
+    background-color: gainsboro;
+    width: 200px;
+    height: 200px;
+    padding: 5px 10px 20px 40px;
+    margin-bottom: 10px;
+}
+
+p
+{
+    background-color: azure;
+}
+
+.model-box
+{
+    /* cambiamos las medidas ; ahora el width y el height sera la medida total de la caja */
+    box-sizing: border-box;
+}

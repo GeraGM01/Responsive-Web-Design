@@ -1,0 +1,42 @@
+/* 
+    Los elementos HTML tienen una altura y un ancho definido segun su contenido. Un parrafo por
+    ejemplo sera tan ancho y alto segun su contenido
+
+    
+    Pero podemos cambiarle su tamaño a nuestro gusto con CSS con las propiedades width y height.
+    width y height aceptan px | % | auto (por defecto)
+
+
+                                        PROPIEDADES
+    width
+    height
+    overflow
+    overflow-x
+    overflow-y
+    overflow-wrap
+*/
+
+/* 
+    Propiedad overflow:
+    Esta propiedad soluciona el problema de que el contenido sobresalga de nuestra caja;
+    Oculta contenido que se salga de la caja o en su defecto mostrarlo en un scroll en la caja 
+
+    overflow: auto -----> Crea un scrol dentro de la caja
+    overflow: hidden ------> Oculta cualquier texto que se salga de su caja, no es buena practica hacerlo
+    overflow: scroll --------> Crea un scrol tanto horizontal como vertical dentro de la caja
+
+
+    overflow-x ------> Sirve para determinar el overflow en el eje de las x eje horizontal
+    overflow-x ------> Sirve para determinar el overflow en el eje de las x eje horizontal
+    overflow-wrap : break-word ------> sirve para poder cortar texto que no este entrando bien en una caja
+*/
+
+.parrafo
+{
+    border: 3px solid red;
+    width: 50px;
+    height: auto;
+    /* overflow: scroll; */
+    /* overflow-x: auto; */
+    overflow-wrap: break-word;
+}

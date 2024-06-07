@@ -1,0 +1,50 @@
+h2
+{
+    /* Cambiar tamaño de la letra */
+    font-size: 30px;
+
+    /* Tipo de letra */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3
+{
+    font-size: 25px;
+}
+
+p, ul, ol
+{
+    font-size: 20px;
+}
+
+
+.imagen-de-gatos
+{
+    /* Ancho de la imagen */
+    width: 200px;
+
+    /* Añadir bordes */
+    border-width: 10px;
+    border-color: blue;
+    /* Estilo none; no se muestra el borde 
+       dotted; borde punteado
+       dashed; linea segmentada
+       double; borde interno y externo doble
+       groove
+       ridge;
+       inset;
+       outsed;
+       Se pueden combinar todos los elementos
+    */
+    border-style: solid dashed dotted double;
+}
+
+
+.bordes-redondeados
+{
+    /* para redondear un borde usamos */
+    /* border-radius: 20px; */
+
+    /* para hacer un circulo en la imagen usamos porcentaje del 50% */
+    border-radius: 50%;
+}
