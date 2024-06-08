@@ -1,0 +1,28 @@
+/* 
+    Las etiquetas en linea(inline) son aquelas que ocupan el ancho de su contenido
+
+    Las etiquetas en bloque(block) son aquellas que ocupan todo el ancho de la linea en la cual se encuentran por ejemplo los
+    titulares h son en bloque.
+
+    PARA PODER CAMBIAR ESTE COMPORTAMIENTO, TENEMOS LA PROPIEDAD DE "display"
+
+    al convertir un elemento de tipo bloque a inline, no se le podra asignar un ancho personalizado ; Para poder
+    solucionar esto, tenemos el atributo de inline-block y con eso ya podemos asignarle un ancho personalizado, pero
+    esta tecnica no es la mas apropiada para alinear elementos uno de lado del otro o uno debajo de otro.
+*/
+
+h1
+{
+    border: 4px solid blue;
+    display: inline;
+}
+
+a
+{
+    border: 4px solid red;
+}
+
+img
+{
+    border: 4px solid green;
+}

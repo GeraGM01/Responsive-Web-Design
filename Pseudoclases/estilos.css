@@ -1,0 +1,67 @@
+/* 
+    Sintaxis de la pseudoclase
+
+    .links:nombreDeLaPseudoclase
+    h1:nombreDeLaPseudoclase
+*/
+
+.boton
+{
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: whitesmoke;
+    font-weight: bold;
+
+    /* con esta propiedad retarda la transicion para darle un efecto mas estetico */
+    transition: all .3s ease-in-out;
+}
+
+/* Pseudoclase active: Evento que se va a relizar al momento de que se presione el elemento y se mantiene presionado*/
+/* .boton:active
+{
+    background-color: #333333b8;
+} */
+
+
+/* Pseudoclase hover: Evento que se va a relizar al momento de que se pase el apuntador sobre el elemento*/
+.boton:hover
+{
+    background-color: #333333b8;
+    padding: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s ease-out;
+}
+
+a:hover
+{
+    box-shadow: 0px 2px 0px 0px black;
+    color: red;
+}
+
+
+/* Pseudoclase focus: Evento que selecciona los elementos que estan enfocados, como un campo de teto que se esta escribiendo */
+.input_text
+{
+    margin-top: 20px;
+    transition: padding .3s ease-in;
+}
+
+.input_text:focus
+{
+    padding: 10px;
+}
+
+
+/* Pseudoclase focus: Evento que selecciona los elementos que estan enfocados, como un campo de teto que se esta escribiendo */
+.input_check
+{
+    
+}

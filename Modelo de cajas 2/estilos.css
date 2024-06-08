@@ -1,0 +1,56 @@
+/* 
+    Padding: es la distancia entre el contenido y el borde
+        -top: espaciado desde arriba
+        -left: espaciado hacia la izquierda
+        -right: espaciado hacia la derecha
+        -bottom: espaciado hacia abajo
+
+    
+    border: distancia entre el padding
+
+    margin: es la distancia que tiene la caja en general de las demas cajas o contenido del HTML
+*/
+
+body
+{
+    border: 10px solid blueviolet;
+}
+
+.section-1
+{
+    border: 5px solid black;
+    padding: 10px 50px;
+    margin-top: 100px;
+    width: 350px;
+    /* Centrar la caja respecto al contenedor padre(en este caso es el body)
+       AQUI SI SE PUEDE POR QUE EL CONTENIDO NO ESTA TAN GRANDE Y NO OCUPA TODO EL ESPACIO    
+    */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-2
+{
+    border: 5px solid green;
+    margin-top: 60px;
+    padding: 70px 10px;
+
+        /* Centrar la caja respecto al contenedor padre(en este caso es el body)
+       AQUI NO SE PUEDE POR QUE EL CONTENIDO ES MUY GRANDE Y EL WIDTH ESTA EN AUTO(POR DEFECTO), CAMBIAREMOS EL WIDTH A UNA MEDIDA ESPECIFICA   
+    */
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Con el padding podemos hacer un boton  */
+.boton
+{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+
+}
