@@ -1,0 +1,70 @@
+/* 
+    el display flex nos permite poscionar los elementos que se encuentran en una caja a un lado del otro, es una buena
+    practica usarlo. CUANDO ACTIVAMOS EL FLEX AUTOMATICAMENTE SE MANEJA EN ROW Y ALINEA A LOS ELEMENTOS EN VERTICAL
+
+    justify-contet nos permite trabajar con el espacio sobrante si es que lo hay.
+    Podemos centrar el contenido que esta dentro e una caja con la propiedad justify-content: center
+
+    De igual forma podemos separar en los polos opuestos el contenido que hay dentro del flex padre usando
+    la propiedad justify-content: space-between
+
+    La propiedad justify-content: space-around nos permite reservar espacio a los lados y al medio tambien hay un espacio un poco
+    mas grande 
+
+    la propiedad justify-content: space-evenly; nos permite generar un espaciado del espacio sobrante del contenedor un espacio exactamente igual en todos los lados
+
+
+    align-items alinea a los elementos en el eje vertical
+    
+    align-items: center     se alinea al centro los items
+    align-items: start      se alinean hacia arriba, es decir al comienzo
+    align-items: start      se alinean hacia abajo, es decir al final
+
+
+
+    flex-wrap: por defecto se tiene en nowrap
+    Esta propiedad hace que los elementos que se aplastan por no caber, no se vayan hacia abajo de la pantalla para que se
+    puedan ver mejor, esto pasa si se deja la opcion por defecto que es la de nowrap
+
+    wrap es otro atributo de flex-wrap y hace que se vayan los elementos hacia abajo cuando no caben y evita que se 
+    aplasten en la misma linea.
+
+*/
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img
+{
+    width: 100%;
+}
+
+.img_venado
+{
+    width: 300px;
+}
+
+.flex_padre
+{
+    border: 3px solid red;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+
+.imagen_container
+{
+    border: 2px solid blue;
+}
+
+.article_padre
+{
+    border: 3px solid green;
+    width: 300px;
+}

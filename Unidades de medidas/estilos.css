@@ -1,0 +1,67 @@
+/* 
+    UNIDADES RELATIVAS
+
+    - % Porcentaje:
+
+    - em: Es una medida relativa al tamaño de la fuente del elemento actual o del elemento padre. Por ejemplo, 
+      si el elemento padre tiene un tamaño de fuente de 16px y el elemento actual tiene un tamaño de fuente
+      de 2em, el tamaño real de la fuente seria de 32px
+
+    - rem: Es una unidad relativa al tamaño de la fuente del elemento raiz(el elemento html). Por ejemplo, si 
+      el elemento html tiene un tamaño de fuente de 16px y el elemento axtual tiene un tamaño de fuente de 2 rem,
+      el tamaño real de la fuente seria de 32px
+
+    - vw: Es una unidad relativa al ancho del viewport(la parte visible de la pantalla). un vw equivale al 1% del
+    ancho del viewport. Por ejemplo, si el viewport tiene un ancho de 800px y el elemento actual tiene un ancho
+    de 50vw, el ancho real del elemento seria de 400px
+    
+    - vh: es una unidad relativa al alto del viewport (La parte visible de la pantalla). un vh equivale al 1% del
+      alto del viewport. Por ejemplo, si el viewport tiene un alto de 600px y el elemento actual tiene un alto de 
+      50vh, el alto real del elemento sera de 300px
+*/
+
+body
+{
+    /* border: 5px solid blueviolet; */
+    margin: 0;
+}
+
+.section_padre
+{
+    border: 3px solid red;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.div_hijo
+{
+    border: 5px solid green;
+    width: 45%;
+    height: 200px;
+    display: inline-block;
+}
+
+.div_hijo_2
+{
+    display: inline-block;
+    border: 5px solid black;
+    width: 45%;
+    height: 200px;
+}
+
+.elementoPadre_emyrem
+{
+    font-size: 16px;
+}
+
+.elementoPadre_emyrem h2
+{
+    font-size: 1.5rem;
+}
+
+.elementoPadre_emyrem p
+{
+    font-size: .9rem;
+}

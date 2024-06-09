@@ -1,0 +1,28 @@
+*
+{
+
+    box-sizing: border-box;
+    /* box-sizing nos permite definir como queremos que CSS maneje los temas del tamaño de cajas ; el valor por defecto
+       es content-box es por defecto (las cajas miden mucho mas que el ancho especifico que le demos) 
+       
+       border-box: Hace que nuestra caja mida exactamente el ancho y el ancho que nosotros determinemos
+       
+    */
+}
+
+.sectionContenedor
+{
+    border: 10px solid red;
+    height: 200px;
+    width: 40%;
+    display: inline-block;
+}
+
+
+.sectionContenedor2
+{
+    border: 10px solid blue;
+    height: 200px;
+    width: 40%;
+    display: inline-block;
+}

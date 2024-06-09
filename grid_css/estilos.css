@@ -1,0 +1,38 @@
+/* 
+    Propiedad display grid
+
+    Se le agrega al contenedor padre. Grid trabaja con 2 propiedades muy importantes:
+    grid-template-columns (nos permite definir cuantas columnas va a tener nuestro grid, se definen en unidades de medida)
+    grid-template-rows (nos permite definir cuantas filas va a tener nuestro grid, se definen en unidades de medida)
+
+    para agregar columnas de forma mas facil usamos la funcion repeat(no. col, tamaño en fr) y en rows es recoemndable poner auto
+    en lugar de repeat
+*/
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid_container
+{
+    border: 10px solid rgba(244, 115, 29);
+    height: 600px;
+    width: 100%;
+    max-width: 800px;
+    margin: 70px auto;
+
+    display: grid;
+    /* Aqui definimos cuantas columnas queremos, en este caso puse 3 de 100px */
+    grid-template-columns: 100px 100px 100px;
+
+    grid-template-rows: 100px;
+}
+
+.grid_hijos
+{
+    border: 5px solid black;
+}
